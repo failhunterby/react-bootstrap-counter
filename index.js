@@ -111,18 +111,18 @@ var CounterInput = function (_React$Component) {
 				_react2.default.createElement(
 					'span',
 					{ className: 'input-group-addon', onClick: function onClick() {
-							_this2._increase(value);
-						} },
-					_react2.default.createElement('i', { className: 'fa fa-plus' })
-				),
-				_react2.default.createElement('input', { className: 'form-control', type: 'text', onChange: this._onChange, value: value }),
-				_react2.default.createElement(
-					'span',
-					{ className: 'input-group-addon', onClick: function onClick() {
 							_this2._decrease(value);
 						} },
 					_react2.default.createElement('i', { className: 'fa fa-minus' })
 				)
+				_react2.default.createElement('input', { className: 'form-control', type: 'text', onChange: this._onChange, value: value }),
+				_react2.default.createElement(
+					'span',
+					{ className: 'input-group-addon', onClick: function onClick() {
+							_this2._increase(value);
+						} },
+					_react2.default.createElement('i', { className: 'fa fa-plus' })
+				),
 			);
 		}
 	}]);
